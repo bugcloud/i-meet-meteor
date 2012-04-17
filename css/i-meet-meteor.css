@@ -1,0 +1,21 @@
+body {
+  background: #2C4762 url('http://assets.tumblr.com/images/background.png') top repeat-x
+}
+
+.hello {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.photo {
+  float: left;
+}

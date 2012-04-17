@@ -1,0 +1,24 @@
+<head>
+  <title>I meet Meteor</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    {{> hello}}
+  </div>
+</body>
+
+<template name="hello">
+  <div class="hello">
+    <h1>Hello Meteor!</h1>
+    <div>
+      {{greeting}}
+      <input type="text" id="tumblrId" value="" />
+    </div>
+    <a class="btn" id="refreshBtn" href="javascript:void(0);">
+      <i class="icon-refresh"></i>
+      Refresh
+    </a>
+  </div>
+  <div id="bg"></div>
+</template>
